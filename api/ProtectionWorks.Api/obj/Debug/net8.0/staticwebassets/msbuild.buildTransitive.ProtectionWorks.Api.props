@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ProtectionWorks.Api.props" />
+</Project>

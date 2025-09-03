@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gabriel/code/gsfiorese/protectionworks/api/ProtectionWorks.Api/ProtectionWorks.Api.csproj": {}
+  },
+  "projects": {
+    "/home/gabriel/code/gsfiorese/protectionworks/api/ProtectionWorks.Api/ProtectionWorks.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabriel/code/gsfiorese/protectionworks/api/ProtectionWorks.Api/ProtectionWorks.Api.csproj",
+        "projectName": "ProtectionWorks.Api",
+        "projectPath": "/home/gabriel/code/gsfiorese/protectionworks/api/ProtectionWorks.Api/ProtectionWorks.Api.csproj",
+        "packagesPath": "/home/gabriel/.nuget/packages/",
+        "outputPath": "/home/gabriel/code/gsfiorese/protectionworks/api/ProtectionWorks.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.25.0, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.24.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Microsoft.Identity.Web.MicrosoftGraph": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
